@@ -3,26 +3,45 @@ body{
    color: white;
    font-family: Arial, Helvetica, sans-serif;
    margin: 0 auto;
-   padding: 30px;
+   padding-left: 30px;
+   padding-top: 5px;
+   text-align: left;
+   font-size: 1em;
 }
 
 h1{
     background-color:#080808;
     width: 400px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+   text-align: center;
 }
 
 h2{
     background-color:#080808;
     width: 800px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
 h3{
     background-color:#080808;
     width: 400px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.pic{
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid #080808;
+}
+
+ul{
+    line-height: 3em;
+}
+
+li{
+    font-size: 1.1em;
 }
