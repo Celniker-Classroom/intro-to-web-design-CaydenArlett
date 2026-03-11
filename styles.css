@@ -1,1 +1,28 @@
+body{
+   background-color: #6e9983;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0 auto;
+   padding: 30px;
+}
 
+h1{
+    background-color:#080808;
+    width: 400px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+}
+
+h2{
+    background-color:#080808;
+    width: 800px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+}
+
+h3{
+    background-color:#080808;
+    width: 400px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+}
