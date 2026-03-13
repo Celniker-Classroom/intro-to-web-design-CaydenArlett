@@ -1,3 +1,52 @@
+/* Underlined sentence style */
+.highlight {
+    text-decoration: underline;
+    background: none;
+    color: inherit;
+    font-weight: inherit;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.section-content {
+    display: block;
+    overflow: hidden;
+    padding: 24px 24px 24px 0;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.section-content:hover {
+    background: #7ebfa3;
+    color: #222;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.13);
+    transform: scale(1.03);
+}
+.section-content span {
+    display: inline;
+    text-align: left;
+    padding-top: 0;
+}
+
+.section {
+    transition: box-shadow 0.3s, background 0.3s;
+    border-radius: 18px;
+    margin-bottom: 32px;
+}
+.section:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 6px rgba(0,0,0,0.10);
+    background: #5b7e6a;
+}
+
+.section p {
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 12px;
+}
+.section p:hover {
+    background: #7ebfa3;
+    color: #222;
+    transform: scale(1.03);
+}
 .float-right {
     float: right;
     margin-left: 20px;
@@ -27,26 +76,35 @@ body{
    padding-left: 10px;
    text-align: center;
    font-size: 1em;
+   max-width: 1200px;
 }
 
-p{
-    padding-left: 30px;
-    padding-right: 30px;
+p {
     max-width: 1000px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
 }
+.main-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 h1{
     background-color:#498666;
     color:rgb(9, 8, 43);
     width: 100vw;
-    padding-left: 0px;
+    min-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 0;
     border-top: 3px double black;
     border-bottom: 3px double black;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h2{
@@ -54,21 +112,27 @@ h2{
     color:rgb(174, 218, 176);
     background-color:#498666;
     width: 100vw;
-    padding-left: 0px;
+    min-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 0;
     border-top: 3px double black;
     border-bottom: 3px double black;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h3{
     background-color:#498666;
     color:rgb(9, 8, 43);
     width: 100vw;
-    padding-left: 0px;
+    min-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 0;
     border-top: 3px double black;
     border-bottom: 3px double black;
     text-align: center;
     clear: both;
+    box-sizing: border-box;
 }
 
 .pic{
