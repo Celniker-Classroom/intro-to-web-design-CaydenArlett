@@ -22,7 +22,7 @@
     box-shadow: 0 4px 18px rgba(0,0,0,0.13);
     transform: scale(1.03);
 }
-.section-content span {
+.section-content p {
     display: inline;
     text-align: left;
     padding-top: 0;
@@ -60,6 +60,7 @@ body{
    padding-top: 5px;
    padding-right: 10px;
    padding-left: 10px;
+   line-height: 1.3em;
    text-align: center;
    font-size: 1em;
    max-width: 1200px;
@@ -84,7 +85,9 @@ h1{
     background-color:#498666;
     color:rgb(9, 8, 43);
     width: 100vw;
+    padding-top: 3px;
     min-width: 100vw;
+    min-height: 32px;
     margin-left: calc(-50vw + 50%);
     padding-left: 0;
     border-top: 3px double black;
@@ -98,7 +101,9 @@ h2{
     color:rgb(174, 218, 176);
     background-color:#498666;
     width: 100vw;
+    padding-top: 4px;
     min-width: 100vw;
+    min-height: 35px;
     margin-left: calc(-50vw + 50%);
     padding-left: 0;
     border-top: 3px double black;
