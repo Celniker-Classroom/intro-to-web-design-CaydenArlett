@@ -173,7 +173,7 @@ a:active{
     }
 
     .section-content {
-        padding: 20px 18px 20px 0;
+        padding: 20px 18px 20px 14px;
     }
 }
 
@@ -184,7 +184,7 @@ a:active{
     }
 
     .pic {
-        width: 100%;
+        width: 95%;
         max-width: 250px;
     }
 
@@ -196,6 +196,6 @@ a:active{
     }
 
     .section-content {
-        padding: 16px 12px 16px 0;
+        padding: 16px 12px 16px 8px;
     }
 }
